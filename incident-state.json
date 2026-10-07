@@ -57,63 +57,52 @@
     },
     {
       "date": "2026-10-07",
-      "event": "OpenAI Help Center AI widget confirms escalation to a support specialist; actual human response unverified"
-    },
-    {
-      "date": "2026-10-07",
-      "event": "Public repository created; static tracker files prepared locally, content publication readback pending"
+      "event": "OpenAI Help Center support widget escalates the report to a specialist; human response pending"
     },
     {
       "at": "2026-10-07T12:44:18Z",
-      "event": "COOLak evidence comment posted on OpenAI issue #51540 and read back"
+      "event": "Additional incident evidence submitted to OpenAI issue #51540"
     },
     {
       "at": "2026-10-07T12:44:32Z",
-      "event": "Owner public bug tracker issue #1 created and read back"
+      "event": "Bug ticket #1 opened with screenshot and diagnostic packet"
     },
     {
       "date": "2026-10-07",
-      "event": "GitHub Pages site verified live; diagnostic supplement delivered to escalated support thread"
+      "event": "Diagnostic supplement submitted to OpenAI Support"
     }
   ],
   "reports": {
     "existing_upstream": {
       "url": "https://github.com/openai/codex/issues/51540",
-      "author": "ivg-design",
       "state_observed": "open",
       "checked_date": "2026-10-07",
       "relationship": "identical visible notice; not a proved shared root cause"
     },
     "this_incident_upstream": {
-      "status": "posted_and_read_back",
-      "planned_parent_url": "https://github.com/openai/codex/issues/51540",
+      "status": "reported",
       "posted_url": "https://github.com/openai/codex/issues/51540#issuecomment-6038172530"
     },
     "support": {
       "channel": "OpenAI Help Center ChatKit AI support widget (currently displayed instead of Fin)",
-      "status": "specialist_escalation_confirmed_by_widget",
+      "status": "escalated_to_support_specialist",
       "widget_reply_window": "coming days",
       "email_reply_route_confirmed_by_widget": true,
       "actual_human_response_verified": false,
       "engineering_acknowledgement_verified": false,
       "case_id_verified": false,
       "resolution_verified": false,
-      "diagnostic_supplement_delivered_and_read_back": true
+      "diagnostic_supplement_submitted": true
     },
     "repository": {
-      "url": "https://github.com/COOLak/chatgpt-dot-abuse-prevention-limit",
-      "status": "public_content_published_and_read_back",
-      "content_readback_verified": true
+      "url": "https://github.com/COOLak/chatgpt-dot-abuse-prevention-limit"
     },
     "pages": {
-      "planned_url": "https://coolak.github.io/chatgpt-dot-abuse-prevention-limit/",
-      "status": "published_and_verified_live",
       "url": "https://coolak.github.io/chatgpt-dot-abuse-prevention-limit/"
     },
     "owner_issue": {
       "url": "https://github.com/COOLak/chatgpt-dot-abuse-prevention-limit/issues/1",
-      "state": "open",
-      "readback_verified": true
+      "state": "open"
     }
   },
   "documentation": {
@@ -137,7 +126,7 @@
       "Raw app logs",
       "Private support bodies"
     ],
-    "screenshot": "User-supplied screenshot published with only date-divider and read-indicator rows (device clock) redacted for privacy, including earlier visible progress context; no underlying project files or full conversation exports"
+    "screenshot": "Original screenshot included with only date-divider and read-indicator rows (device clock) redacted for privacy; no project files or full conversation exports"
   },
   "vendor_fix": null
 }

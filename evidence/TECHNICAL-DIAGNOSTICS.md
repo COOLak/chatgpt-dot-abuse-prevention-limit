@@ -32,11 +32,9 @@ This is evidence that the desktop messaging transport completed. It does **not**
 
 The selected local logs do not expose the abuse-prevention decision, quota, reset timestamp, or upstream error code. A focused query of existing macOS unified logs in the same window produced no relevant dot/Orbit/abuse-limit event. The root cause therefore remains unconfirmed and requires OpenAI's backend investigation.
 
-## Public evidence handling
+## Redacted logs
 
-The attached JSON uses allowlist extraction: timestamps, severity, component, stage, outcome, measurement, HTTP status and duration. It excludes message bodies, request/trace/client identifiers, account or conversation identifiers, URLs, local source paths, tokens, cookies, settings, session stores and unrelated events. The supplied screenshot was preserved unchanged except for redacted date-divider and read-indicator rows; its other visible conversation text is separate from this log packet.
-
-No app settings, authentication, permissions, services or app state were changed. No native GUI control of ChatGPT/Codex was attempted.
+The JSON contains timestamps, severity, component, stage, outcome, measurement, HTTP status and duration. Message bodies, personal and request identifiers, local paths, credentials, cookies and unrelated events are omitted. The original screenshot is included with only its date-divider and read-indicator rows (device clock) redacted for privacy.
 
 ## Official documentation context
 

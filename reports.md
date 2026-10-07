@@ -1,21 +1,17 @@
-# Public and support reports
+# Reports and support
 
-Updated **October 7, 2026**. Reporting is complete; the incident remains **unresolved**.
+Updated **October 7, 2026**. The incident remains **unresolved**.
 
-| Channel | Record | Verified status |
+| Channel | Record | Status |
 |---|---|---|
-| OpenAI upstream | [Evidence comment on #51540](https://github.com/openai/codex/issues/51540#issuecomment-6038172530) | Posted and read back under COOLak |
-| Owner bug tracker | [Issue #1](https://github.com/COOLak/chatgpt-dot-abuse-prevention-limit/issues/1) | Open; screenshot and diagnostic packet included |
-| OpenAI Support | Current ChatKit AI support widget | Specialist escalation confirmed; diagnostic supplement delivered. Human reply, case ID and engineering acknowledgement unavailable. |
-| Repository | [Public repository](https://github.com/COOLak/chatgpt-dot-abuse-prevention-limit) | Contents published and read back |
-| GitHub Pages | [Incident website](https://coolak.github.io/chatgpt-dot-abuse-prevention-limit/) | Build succeeded; page verified live |
+| OpenAI issue | [Additional evidence on #51540](https://github.com/openai/codex/issues/51540#issuecomment-6038172530) | Ordinary status-request incident and diagnostic findings |
+| Bug tracker | [Issue #1](https://github.com/COOLak/chatgpt-dot-abuse-prevention-limit/issues/1) | Open; screenshot and diagnostic packet included |
+| OpenAI Support | Help Center ChatKit AI support widget | Escalated to a support specialist; diagnostic supplement submitted. Awaiting a human reply. |
 
-## Requested vendor response
+## Awaiting OpenAI
 
-Identify the applicable limit and owner; provide its accounting window, relevant usage meter and authoritative reset time; explain active/scheduled work continuity; give a supported recovery path and engineering response/ETA. The support widget promised replies in the coming days and by email, without an exact deadline.
+OpenAI has not supplied the applicable limit, accounting window, usage meter, reset time, effect on active work, supported recovery or engineering response. The support widget promised replies in the coming days and by email, without an exact deadline. No case identifier or engineering acknowledgement is available yet.
 
-The current signed-in Help Center route displays ChatKit AI support rather than a Fin-branded interface. It confirmed a specialist escalation. The first AI response suggested the general Work/Codex allowance; this is recorded as support advice, not a verified account-side diagnosis.
+The Help Center currently displays ChatKit AI support rather than Fin. Its initial response suggested the general Work/Codex allowance; that advice does not establish which limit caused this incident.
 
-The existing upstream report is by another user and corroborates the visible notice. Similar wording does not establish a shared cause. The new comment consolidates this incident with that issue instead of creating a duplicate upstream ticket.
-
-Private support readbacks remain local. Public diagnostics exclude message bodies and operational identifiers. No vendor resolution or engineering acknowledgement is recorded.
+The existing upstream report describes the same notice in another user's incident. Identical wording does not establish a shared cause. Additional evidence for this incident appears in the same issue.

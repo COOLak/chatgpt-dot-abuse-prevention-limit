@@ -1,6 +1,6 @@
 # Your always-on agent is on a break. Congratulations.
 
-> **Status, October 7, 2026: unresolved.** An ordinary request for a progress update received: **“Your dot is on a break. Congrats you are in the very top users and have hit our abuse prevention limit. Check back in a bit!”** No numerical threshold, usage meter or reset time appeared in that notice. Root cause and the state of delegated work remain unverified.
+> **Status, October 7, 2026: unresolved.** An ordinary request for a progress update received: **“Your dot is on a break. Congrats you are in the very top users and have hit our abuse prevention limit. Check back in a bit!”** No numerical threshold, usage meter or reset time appeared in that notice. The cause and the state of delegated work remain unknown.
 
 I asked my ChatGPT dot a demanding question: **“What's currently going on?”**
 
@@ -17,8 +17,6 @@ The notice supplies none of that. An always-on assistant needs an availability c
 - **[Machine-readable state](incident-state.json)**
 - **[Relevant screenshot exhibit](evidence/dot-limit-status-request.png)**
 
-The HTML site is included in this repository. GitHub Pages availability is not implied by file presence; its publication status is tracked in [reports.md](reports.md).
-
 ## Short summary
 
 | | |
@@ -32,13 +30,13 @@ The HTML site is included in this repository. GitHub Pages availability is not i
 | **Prior public report** | [openai/codex#51540](https://github.com/openai/codex/issues/51540), filed by another user, describes the identical notice |
 | **Cause** | Unknown. The wording is a product message, not evidence that the user committed abuse |
 | **Delegated work** | Not established: the screenshot does not prove that tasks stopped, continued, lost state or resumed |
-| **Remedy** | No supported remedy or recovery time verified for this incident |
+| **Remedy** | No supported remedy or recovery time established for this incident |
 
 ## What the evidence shows
 
 The supplied screenshot shows earlier dot progress messages, then the October 7 status request and the quoted limit notice. It also shows the user replying “Really?” The screenshot does not show a subsequent useful dot response.
 
-This is a recorded incident, not an isolated repeatable experiment. The screenshot alone cannot establish the account's resource consumption, backend limit type, reset policy or current task execution state. The app version and OS were verified locally. The subscription plan and backend limit remain unverified.
+This is a recorded incident, not an isolated repeatable experiment. The screenshot alone cannot establish the account's resource consumption, backend limit type, reset policy or current task execution state. The diagnostic packet records the app version and OS. The subscription plan and backend limit are unknown.
 
 **[Collected diagnostics](evidence/TECHNICAL-DIAGNOSTICS.md)** include 306 scrubbed Orbit events in the 12:25–12:34 UTC window. All 26 recorded response-header events were HTTP 200; the same-minute message pipeline logged send and first-response success. Correlation with the screenshot is inferred from time, because these logs contain no message bodies. Successful transport does not establish a useful answer or recovery.
 
@@ -64,17 +62,16 @@ The official [dot guide](https://learn.chatgpt.com/docs/dots) distinguishes dot 
 
 The problem is that this particular notice does not identify the applicable allowance or give the user a way to plan around it. If an abuse-prevention exception applies, OpenAI should describe its practical scope and recovery behavior without exposing security-sensitive enforcement details.
 
-## Reporting status
+## Reports and support
 
-- [This incident was reported on OpenAI's existing issue](https://github.com/openai/codex/issues/51540#issuecomment-6038172530); the posted evidence comment was read back under `COOLak`.
-- [The owner's bug-tracker issue #1](https://github.com/COOLak/chatgpt-dot-abuse-prevention-limit/issues/1) is open, with the screenshot, environment and scrubbed diagnostic links.
-- The OpenAI Help Center's current AI support widget confirms escalation to a support specialist, with replies expected in the coming days/by email. The additional diagnostic message was read back. This widget is branded ChatKit, rather than Fin. No human response, case identifier or engineering acknowledgement was provided.
-- The repository contents and [GitHub Pages site](https://coolak.github.io/chatgpt-dot-abuse-prevention-limit/) were published and verified live.
+- [Additional evidence on OpenAI issue #51540](https://github.com/openai/codex/issues/51540#issuecomment-6038172530).
+- [Bug ticket with the screenshot and diagnostic packet](https://github.com/COOLak/chatgpt-dot-abuse-prevention-limit/issues/1).
+- OpenAI's Help Center AI support widget escalated the report to a support specialist and received the diagnostic supplement. Replies were promised in the coming days and by email. No human response, case identifier or engineering acknowledgement is available yet.
 
-The reporting work is complete. The product incident remains **unresolved**: no authoritative reset time, backend explanation or verified recovery is available. See [reports.md](reports.md) for the channel ledger.
+The incident remains **unresolved**. The applicable limit, reset time and supported recovery are still unknown. See [reports.md](reports.md) for support status.
 
 ## Privacy
 
-The supplied screenshot is preserved and published, including its earlier visible progress context; only its date-divider and read-indicator rows (device clock) are redacted for privacy. No underlying project files or full conversation exports are published. Diagnostic logs use a reviewed allowlist of event categories and timings; message bodies, account/contact and conversation identifiers, local paths, URLs, credentials and cookie values are excluded. Original full app logs and private operational correlation data remain local.
+The original screenshot is included with only its date-divider and read-indicator rows (device clock) redacted for privacy. Diagnostic excerpts contain event categories and timings, with message bodies, personal identifiers, local paths, credentials and cookies removed. Raw logs, project files and full conversation exports are omitted.
 
-The earlier progress statements are context reported by the dot. They are not independent proof that those actions occurred, and this tracker does not publish or audit the underlying work.
+Earlier progress statements in the screenshot are the dot's own reports; they do not establish the underlying task state.

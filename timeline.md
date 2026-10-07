@@ -1,35 +1,29 @@
 # Timeline
 
-All incident times are given in **UTC**. Screenshot display times are observations, not authoritative backend timestamps. GitHub's source timestamps are UTC.
+Times are **UTC**. Screenshot display times do not establish the limit's start or reset time.
 
-## October 7, 2026: prior public corroboration inspected
+## October 7, 2026, 01:29 UTC: related report opened
 
-Another user opened [openai/codex#51540](https://github.com/openai/codex/issues/51540) at **01:29:03 UTC**, describing the same message during an October 6 EDT incident. Their recovery observation does not establish this incident's reset time.
+[OpenAI issue #51540](https://github.com/openai/codex/issues/51540) describes the identical notice in another user's October 6 EDT incident. The reported recovery in that case does not establish a reset policy for this one.
 
 ## October 7, 2026, 10:31 UTC: earlier progress update
 
-The supplied screenshot shows a prior dot progress statement under a date divider (October 7, 10:31 UTC; divider redacted in the published screenshot). It establishes that such a statement appeared; the underlying workflow and claimed actions are outside this public report.
+The screenshot contains a dot progress update. Its claims about ongoing work do not establish the underlying task state.
 
-## October 7, 2026, 12:29 UTC: status question blocked
+## October 7, 2026, 12:29 UTC: status request blocked
 
-The user asks **“What's currently going on?”** The dot responds with the abuse-prevention break notice instead of a useful status update. The notice contains no numerical threshold or reset time.
+The user asks **“What's currently going on?”** The dot replies with the abuse-prevention break notice instead of a useful progress update. No numerical threshold or reset time appears in the notice.
 
-## October 7, 2026, 12:31 UTC: user follow-up read
+## October 7, 2026, 12:31 UTC: follow-up
 
-The screenshot shows **“Really?”**; the original also shows a read indicator at 12:31 UTC, redacted in the published copy. No subsequent useful dot response appears in the supplied exhibit.
+The screenshot shows **“Really?”**; the original also shows a read indicator at 12:31 UTC, redacted in the published copy. It contains no later useful dot response.
 
-## October 7, 2026: reporting initiated
+## October 7, 2026: diagnostics and reports
 
-The owner requests a GitHub report, OpenAI support escalation and a public tracker matching earlier evidence hubs. The OpenAI Help Center AI widget confirms escalation to a support specialist and says replies are expected in the coming days, with replies also by email. No human response, case reference, engineering acknowledgement or resolution is verified at this checkpoint.
+Local logs show successful messaging transport during the incident window, but do not identify the backend limit. The screenshot and diagnostics were added to [OpenAI issue #51540](https://github.com/openai/codex/issues/51540#issuecomment-6038172530) and [bug ticket #1](https://github.com/COOLak/chatgpt-dot-abuse-prevention-limit/issues/1).
 
-## October 7, 2026: public tracker prepared locally
+OpenAI's Help Center support widget escalated the report to a specialist and received the diagnostic supplement. A human response is pending.
 
-The public repository is created, and the incident narrative, technical boundaries, channel ledger, timeline and machine-readable state are prepared locally. Upstream comment, repository-content publication and Pages availability remain separate readback obligations.
+## Current status
 
-## Current checkpoint
-
-**Unresolved.** The cause, authoritative reset time, supported remedy and state of delegated work remain unknown. This timeline contains no claimed fixed date or invented support commitment.
-
-## Reporting completed on October 7
-
-OpenAI evidence comment and owner issue #1 were posted and read back. The support widget confirmed specialist escalation and received the diagnostic supplement. GitHub Pages built successfully and the public website was read back. The product incident remains unresolved.
+**Unresolved.** The cause, reset time, supported remedy and state of delegated work remain unknown.
