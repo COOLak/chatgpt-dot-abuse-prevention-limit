@@ -1,0 +1,99 @@
+{
+  "environment": {
+    "collected_at_utc": "2026-10-07T12:41:35.857817+00:00",
+    "app_display_name": "ChatGPT",
+    "bundle_identifier": "com.openai.codex",
+    "version": "26.930.61225",
+    "build": "13232",
+    "os_name": "macOS",
+    "os_version": "27.0.1",
+    "os_build": "26A434",
+    "architecture": "arm64",
+    "incident_date_utc": "2026-10-07",
+    "screenshot_warning_time_utc": "12:29",
+    "screenshot_warning_time_precision": "Minute from supplied screenshot (clock redacted in the published copy), converted to UTC; no independently verified server timestamp.",
+    "collection_window_utc": {
+      "start": "2026-10-07T12:25:00Z",
+      "end": "2026-10-07T12:34:00Z"
+    }
+  },
+  "sources": [
+    {
+      "source": "desktop-log-01",
+      "orbit_event_rows_in_window": 306
+    },
+    {
+      "source": "desktop-log-02",
+      "orbit_event_rows_in_window": 0
+    },
+    {
+      "source": "desktop-log-03",
+      "orbit_event_rows_in_window": 0
+    },
+    {
+      "source": "desktop-log-04",
+      "orbit_event_rows_in_window": 0
+    },
+    {
+      "source": "desktop-log-05",
+      "orbit_event_rows_in_window": 0
+    },
+    {
+      "source": "desktop-log-06",
+      "orbit_event_rows_in_window": 0
+    },
+    {
+      "source": "desktop-log-07",
+      "orbit_event_rows_in_window": 0
+    },
+    {
+      "source": "desktop-log-08",
+      "orbit_event_rows_in_window": 0
+    }
+  ],
+  "selected_orbit_event_rows": 306,
+  "orbit_stage_counts": {
+    "client.first_response": 2,
+    "client.history_fetch": 28,
+    "client.http_send": 4,
+    "client.message_available": 2,
+    "client.message_committed": 2,
+    "client.message_paint_opportunity": 2,
+    "client.pubsub_received": 4,
+    "client.room_fetch": 24,
+    "client.round_trip": 2,
+    "client.send": 2,
+    "host.auth": 52,
+    "host.device_cookie": 52,
+    "host.network": 52,
+    "host.request": 52,
+    "host.response_headers": 26
+  },
+  "host_response_header_status_counts": {
+    "200": 26
+  },
+  "explicit_limit_or_abuse_log_hits_in_window": [],
+  "scrubbing": {
+    "method": "Allowlist extraction of timestamp, severity, component and six categorical/numeric Orbit event fields.",
+    "excluded": [
+      "message bodies",
+      "request/trace/client identifiers",
+      "account and conversation identifiers",
+      "URLs",
+      "local source paths",
+      "auth tokens",
+      "cookies",
+      "settings",
+      "session stores",
+      "unrelated app events and histories",
+      "operational correlation file"
+    ]
+  },
+  "limits": [
+    "Request-to-screenshot correspondence is based on the timestamp; these logs do not include message text.",
+    "Transport success and HTTP 200 do not prove successful task execution or that the restriction is resolved.",
+    "The selected local logs do not expose the abuse-prevention decision, quota, reset timestamp, or an upstream error code.",
+    "An existing macOS unified-log query for the same window produced no relevant dot/Orbit/abuse-limit event; unrelated matches were excluded.",
+    "No app state, settings, authentication, permissions, or services were changed. No own-app GUI was controlled."
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "files": {
+    "environment.json": {
+      "bytes": 645,
+      "sha256": "b2366ee39f0bc7c8e32b673bc7c52130c60b8ed39bf7d154b0c94369e3c9e010"
+    },
+    "orbit-messaging-scrubbed.json": {
+      "bytes": 105187,
+      "sha256": "c6275ec3acff08349c48859add9e1e390672e3cb57f22160931dc499d78ec500"
+    },
+    "diagnostic-summary.json": {
+      "bytes": 3142,
+      "sha256": "be25e9a6ced572cb755acfdf28c2349dceb5f1b6226af7ceb22051c06eb8e475"
+    },
+    "TECHNICAL-DIAGNOSTICS.md": {
+      "bytes": 3226,
+      "sha256": "d93a93aa6ef7e488dbe1e8b0370569f2e3a10978b2e6c448bf1a24594f996bd5"
+    }
+  },
+  "original_screenshot": {
+    "sha256": "2b132d961fab858daf92f270d6db4e63619feea5b9517ea824e03ae2c5c9cb5f",
+    "bytes": 658295,
+    "modified": true,
+    "modification": "date-divider and read-indicator rows (device clock display) redacted for privacy"
+  }
+}

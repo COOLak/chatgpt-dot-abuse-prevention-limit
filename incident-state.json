@@ -1,0 +1,124 @@
+{
+  "schema": "incident-state/v1",
+  "incident": "ChatGPT dot opaque abuse-prevention break on ordinary status request",
+  "updated": "2026-10-07",
+  "timezone": "UTC",
+  "status": "unresolved",
+  "component": {
+    "product": "ChatGPT dot in desktop app",
+    "exact_app_version": "26.930.61225",
+    "subscription_plan": null,
+    "backend_limit_family": null,
+    "build": "13232"
+  },
+  "environment": {
+    "exact_os_version": "27.0.1",
+    "model": null,
+    "os_build": "26A434",
+    "architecture": "arm64"
+  },
+  "evidence": {
+    "basis": "owner-supplied screenshot",
+    "public_exhibit": "evidence/dot-limit-status-request.png",
+    "prompt": "What's currently going on?",
+    "notice": "Your dot is on a break. Congrats you are in the very top users and have hit our abuse prevention limit. Check back in a bit!",
+    "displayed_request_time": "2026-10-07T12:29:00Z",
+    "displayed_followup_read_time": "2026-10-07T12:31:00Z",
+    "time_basis": "displayed screenshot times converted to UTC, not authenticated backend event times",
+    "threshold_visible_in_notice": false,
+    "usage_meter_visible_in_notice": false,
+    "reset_time_visible_in_notice": false,
+    "cause": null,
+    "misuse_established": false,
+    "delegated_work_state": "unknown",
+    "lost_work_established": false,
+    "isolated_reproduction": false,
+    "supported_remedy_verified": false,
+    "diagnostics": "evidence/TECHNICAL-DIAGNOSTICS.md",
+    "diagnostic_event_count": 306,
+    "http_status_counts": {
+      "200": 26
+    }
+  },
+  "timeline": [
+    {
+      "at": "2026-10-07T01:29:03Z",
+      "event": "Different user opens upstream report #51540 documenting identical notice; a shared cause is not established"
+    },
+    {
+      "at": "2026-10-07T12:29:00Z",
+      "time_basis": "screenshot display",
+      "event": "Ordinary status request receives abuse-prevention break notice"
+    },
+    {
+      "at": "2026-10-07T12:31:00Z",
+      "time_basis": "screenshot read indicator",
+      "event": "User follow-up marked read; supplied screenshot has no subsequent useful response"
+    },
+    {
+      "date": "2026-10-07",
+      "event": "OpenAI Help Center AI widget confirms escalation to a support specialist; actual human response unverified"
+    },
+    {
+      "date": "2026-10-07",
+      "event": "Public repository created; static tracker files prepared locally, content publication readback pending"
+    }
+  ],
+  "reports": {
+    "existing_upstream": {
+      "url": "https://github.com/openai/codex/issues/51540",
+      "author": "ivg-design",
+      "state_observed": "open",
+      "checked_date": "2026-10-07",
+      "relationship": "identical visible notice; not a proved shared root cause"
+    },
+    "this_incident_upstream": {
+      "status": "prepared_publication_pending",
+      "planned_parent_url": "https://github.com/openai/codex/issues/51540",
+      "posted_url": null
+    },
+    "support": {
+      "channel": "OpenAI Help Center AI widget",
+      "status": "specialist_escalation_confirmed_by_widget",
+      "widget_reply_window": "coming days",
+      "email_reply_route_confirmed_by_widget": true,
+      "actual_human_response_verified": false,
+      "engineering_acknowledgement_verified": false,
+      "case_id_verified": false,
+      "resolution_verified": false
+    },
+    "repository": {
+      "url": "https://github.com/COOLak/chatgpt-dot-abuse-prevention-limit",
+      "status": "public_repository_created_content_pending",
+      "content_readback_verified": false
+    },
+    "pages": {
+      "planned_url": "https://coolak.github.io/chatgpt-dot-abuse-prevention-limit/",
+      "status": "not_verified_live"
+    }
+  },
+  "documentation": {
+    "official_guide": "https://learn.chatgpt.com/docs/dots",
+    "boundary": "Distinguish conversations from deeper-work, ChatGPT Work and Codex allowances; no claim of unlimited computation"
+  },
+  "requested_owner_actions": [
+    "Identify applicable limit and scope",
+    "Provide accounting window and used/remaining capacity",
+    "Provide authoritative reset time with timezone",
+    "Establish active and scheduled work state",
+    "Provide supported recovery path, engineering owner and ETA",
+    "Clarify capacity versus misuse in user-facing wording"
+  ],
+  "privacy": {
+    "excluded": [
+      "Conversation URLs",
+      "Account/contact identifiers",
+      "Credentials",
+      "Cookies",
+      "Raw app logs",
+      "Private support bodies"
+    ],
+    "screenshot": "User-supplied screenshot published with only date-divider and read-indicator rows (device clock) redacted for privacy, including earlier visible progress context; no underlying project files or full conversation exports"
+  },
+  "vendor_fix": null
+}
