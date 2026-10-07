@@ -62,6 +62,18 @@
     {
       "date": "2026-10-07",
       "event": "Public repository created; static tracker files prepared locally, content publication readback pending"
+    },
+    {
+      "at": "2026-10-07T12:44:18Z",
+      "event": "COOLak evidence comment posted on OpenAI issue #51540 and read back"
+    },
+    {
+      "at": "2026-10-07T12:44:32Z",
+      "event": "Owner public bug tracker issue #1 created and read back"
+    },
+    {
+      "date": "2026-10-07",
+      "event": "GitHub Pages site verified live; diagnostic supplement delivered to escalated support thread"
     }
   ],
   "reports": {
@@ -73,28 +85,35 @@
       "relationship": "identical visible notice; not a proved shared root cause"
     },
     "this_incident_upstream": {
-      "status": "prepared_publication_pending",
+      "status": "posted_and_read_back",
       "planned_parent_url": "https://github.com/openai/codex/issues/51540",
-      "posted_url": null
+      "posted_url": "https://github.com/openai/codex/issues/51540#issuecomment-6038172530"
     },
     "support": {
-      "channel": "OpenAI Help Center AI widget",
+      "channel": "OpenAI Help Center ChatKit AI support widget (currently displayed instead of Fin)",
       "status": "specialist_escalation_confirmed_by_widget",
       "widget_reply_window": "coming days",
       "email_reply_route_confirmed_by_widget": true,
       "actual_human_response_verified": false,
       "engineering_acknowledgement_verified": false,
       "case_id_verified": false,
-      "resolution_verified": false
+      "resolution_verified": false,
+      "diagnostic_supplement_delivered_and_read_back": true
     },
     "repository": {
       "url": "https://github.com/COOLak/chatgpt-dot-abuse-prevention-limit",
-      "status": "public_repository_created_content_pending",
-      "content_readback_verified": false
+      "status": "public_content_published_and_read_back",
+      "content_readback_verified": true
     },
     "pages": {
       "planned_url": "https://coolak.github.io/chatgpt-dot-abuse-prevention-limit/",
-      "status": "not_verified_live"
+      "status": "published_and_verified_live",
+      "url": "https://coolak.github.io/chatgpt-dot-abuse-prevention-limit/"
+    },
+    "owner_issue": {
+      "url": "https://github.com/COOLak/chatgpt-dot-abuse-prevention-limit/issues/1",
+      "state": "open",
+      "readback_verified": true
     }
   },
   "documentation": {

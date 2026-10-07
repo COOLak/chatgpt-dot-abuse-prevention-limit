@@ -1,31 +1,21 @@
 # Public and support reports
 
-Last updated: **October 7, 2026**.
+Updated **October 7, 2026**. Reporting is complete; the incident remains **unresolved**.
 
-This ledger distinguishes preparation, transmission, acknowledgement and resolution. A message sent to an AI support widget is not a confirmed engineering escalation.
-
-| Channel | Current evidence | Status |
+| Channel | Record | Verified status |
 |---|---|---|
-| Existing upstream issue | [openai/codex#51540](https://github.com/openai/codex/issues/51540), by `ivg-design`; identical notice, verified open October 7 | Prior public corroboration; another user's incident |
-| This incident's upstream contribution | New evidence comment planned for #51540 | **Prepared / publication pending**; no posted comment claimed |
-| OpenAI Help Center AI widget | Widget confirms escalation to a support specialist; replies expected in the coming days and by email | **Escalation confirmed by widget**; human response, case identifier and engineering acknowledgement unverified |
-| Public GitHub tracker | [Public repository created](https://github.com/COOLak/chatgpt-dot-abuse-prevention-limit); static incident-hub files prepared locally | **Repository created; content publication pending** |
-| GitHub Pages | Static HTML and supporting files included | **Not verified live**; no Pages deployment claimed |
+| OpenAI upstream | [Evidence comment on #51540](https://github.com/openai/codex/issues/51540#issuecomment-6038172530) | Posted and read back under COOLak |
+| Owner bug tracker | [Issue #1](https://github.com/COOLak/chatgpt-dot-abuse-prevention-limit/issues/1) | Open; screenshot and diagnostic packet included |
+| OpenAI Support | Current ChatKit AI support widget | Specialist escalation confirmed; diagnostic supplement delivered. Human reply, case ID and engineering acknowledgement unavailable. |
+| Repository | [Public repository](https://github.com/COOLak/chatgpt-dot-abuse-prevention-limit) | Contents published and read back |
+| GitHub Pages | [Incident website](https://coolak.github.io/chatgpt-dot-abuse-prevention-limit/) | Build succeeded; page verified live |
 
-## Existing report
+## Requested vendor response
 
-[#51540](https://github.com/openai/codex/issues/51540) is titled **“Dots: opaque ‘abuse prevention’ breaks undermine always-on reliability; no usage meter or reset information.”** It reports the identical notice on October 6 EDT and asks for scope, accounting, a meter, reset information, active-work status and useful recovery.
+Identify the applicable limit and owner; provide its accounting window, relevant usage meter and authoritative reset time; explain active/scheduled work continuity; give a supported recovery path and engineering response/ETA. The support widget promised replies in the coming days and by email, without an exact deadline.
 
-The October 7 incident here adds a directly recorded ordinary progress question receiving that notice. Similar symptoms do not establish a common implementation cause.
+The current signed-in Help Center route displays ChatKit AI support rather than a Fin-branded interface. It confirmed a specialist escalation. The first AI response suggested the general Work/Codex allowance; this is recorded as support advice, not a verified account-side diagnosis.
 
-## Requested support outcome
+The existing upstream report is by another user and corroborates the visible notice. Similar wording does not establish a shared cause. The new comment consolidates this incident with that issue instead of creating a duplicate upstream ticket.
 
-The requested escalation should identify the product/engineering owner, classify the applicable limit, explain its accounting and reset policy, establish the state of affected ongoing work, provide a supported recovery path and supply a remediation ETA.
-
-The support record should preserve any exact acknowledgement, case reference or engineering response privately. Public status can summarize it without account identifiers or private correspondence.
-
-## Publication discipline
-
-Replace a pending row only after the exact created object or posted message has been read back. Store its canonical public URL where appropriate. Do not count a composer, a submit click, a local file or a created-repository acknowledgement as complete publication.
-
-No vendor resolution is recorded at this checkpoint.
+Private support readbacks remain local. Public diagnostics exclude message bodies and operational identifiers. No vendor resolution or engineering acknowledgement is recorded.

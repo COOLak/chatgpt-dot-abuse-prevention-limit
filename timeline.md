@@ -29,3 +29,7 @@ The public repository is created, and the incident narrative, technical boundari
 ## Current checkpoint
 
 **Unresolved.** The cause, authoritative reset time, supported remedy and state of delegated work remain unknown. This timeline contains no claimed fixed date or invented support commitment.
+
+## Reporting completed on October 7
+
+OpenAI evidence comment and owner issue #1 were posted and read back. The support widget confirmed specialist escalation and received the diagnostic supplement. GitHub Pages built successfully and the public website was read back. The product incident remains unresolved.

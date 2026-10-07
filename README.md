@@ -10,7 +10,7 @@ The notice supplies none of that. An always-on assistant needs an availability c
 
 ## Start here
 
-- **[Read the incident page source](index.html)** (web publication verification pending)
+- **[Open the public incident page](https://coolak.github.io/chatgpt-dot-abuse-prevention-limit/)**
 - **[Evidence, observations and what is still unknown](technical-analysis.md)**
 - **[Where this has been reported, and the status of each report](reports.md)**
 - **[Dated timeline](timeline.md)**
@@ -66,12 +66,12 @@ The problem is that this particular notice does not identify the applicable allo
 
 ## Reporting status
 
-- An existing report by another user, [openai/codex#51540](https://github.com/openai/codex/issues/51540), was verified open on October 7. It documents the identical message; a common root cause is not established.
-- This incident's evidence contribution to that issue is being prepared. It is not counted as posted until live readback confirms it.
-- The OpenAI Help Center AI widget confirms escalation to a support specialist and says a response is expected in the coming days, with replies also by email. A human response, case identifier and engineering acknowledgement are not yet verified.
-- The public repository has been created; publication of this tracker content remains pending until readback is recorded.
+- [This incident was reported on OpenAI's existing issue](https://github.com/openai/codex/issues/51540#issuecomment-6038172530); the posted evidence comment was read back under `COOLak`.
+- [The owner's bug-tracker issue #1](https://github.com/COOLak/chatgpt-dot-abuse-prevention-limit/issues/1) is open, with the screenshot, environment and scrubbed diagnostic links.
+- The OpenAI Help Center's current AI support widget confirms escalation to a support specialist, with replies expected in the coming days/by email. The additional diagnostic message was read back. This widget is branded ChatKit, rather than Fin. No human response, case identifier or engineering acknowledgement was provided.
+- The repository contents and [GitHub Pages site](https://coolak.github.io/chatgpt-dot-abuse-prevention-limit/) were published and verified live.
 
-See [reports.md](reports.md) for the current channel ledger.
+The reporting work is complete. The product incident remains **unresolved**: no authoritative reset time, backend explanation or verified recovery is available. See [reports.md](reports.md) for the channel ledger.
 
 ## Privacy
 
